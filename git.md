@@ -32,8 +32,8 @@ git status ---- in the prompt
 git config --global user.email "gabrielaasolis@gmail.com"
 git config --global user.name "Gabriela Solis"
 
-git commit -m "first commit" 
-git remote add origin https://github.com/gabrielaasolis/cheat-sheet.git
+git commit -m "first commit" ---- mental note
+git remote add origin https://github.com/gabrielaasolis/cheat-sheet.git   ---- once. Makes connection from local machine to github repo.
 git push -u origin master
 git pull
 
