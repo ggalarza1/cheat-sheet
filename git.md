@@ -2,7 +2,7 @@ How to create a git repository
 
 1.Download git
 
-----------To start a project in grithub.-----------
+----------To start a project in Github.-----------
 
 1.Make a repository name but make sure it ends with ".md".
 
@@ -20,7 +20,7 @@ How to create a git repository
 
 9.When using the command prompt, you want to change the directory to the text file in your computer.
 
-10.Using the universal command "cd", write the path to the folder you are using. 
+10.Using the universal command "cd", write the path to the folder you are using.
 
 11. For me, my command path was in my desktop in a folder called python. My text file was called "cheatsheet". ex.".\Desktop\Python\cheatsheet\"
 7.Follow the instructions in github to connect to the computer
@@ -33,11 +33,8 @@ git config --global user.email "gabrielaasolis@gmail.com"
 git config --global user.name "Gabriela Solis"
 
 git commit -m "first commit" ---- mental note
-git remote add origin https://github.com/gabrielaasolis/cheat-sheet.git   ---- once. Makes connection from local machine to github repo.
+git remote add origin https://github.com/ggalarza1/cheat-sheet.git   ---- once. Makes connection from local machine to github repo.
 git push -u origin master
 git pull
 
-history ---used to see the history of the items made
-
-
-
+#history ---used to see the history of the items made
