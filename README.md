@@ -1,1 +1,3 @@
-This cheat sheet will have information that i encounter during my learning path to become a data scientist. Anything written here will be important for me as a beginner.
+This cheat sheet contains code that I learned. These notebooks will also serve as guidance to help anyone who needs to refresh their skills in python.
+
+This folder will also contain notes on information I don't want to forget as I pursuit a career in technology.
