@@ -17,4 +17,18 @@ elif 81 < grade_percentage_float <= 90:
     print('B')
 else:
     print('A')
-    
+
+#Another "If" statement with else continued
+first_name = 'Luigi'
+
+if first_name == 'John':
+    print('Hi John, nice to meet you')
+else:
+    print('I don''t know your name')
+
+
+suitcase_weight_float = float(input('Please enter suitcase weight in pounds: '))
+if suitcase_weight_float >= 50:
+    print('There is an extra $25 dollars charge')
+else:
+    print('There is no extra charge')    
