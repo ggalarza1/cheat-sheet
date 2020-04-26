@@ -26,9 +26,16 @@ if first_name == 'John':
 else:
     print('I don''t know your name')
 
-
+#Suitecase example
 suitcase_weight_float = float(input('Please enter suitcase weight in pounds: '))
 if suitcase_weight_float >= 50:
     print('There is an extra $25 dollars charge')
 else:
-    print('There is no extra charge')    
+    print('There is no extra charge')
+
+# Creating an amortization schedule using Python
+
+    from amortization.schedule import amortization_schedule
+
+for number, amount, interest, principal, balance in amortization_schedule(150000, 0.1, 36):
+    print(number, amount, interest, principal, balance)
