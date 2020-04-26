@@ -34,8 +34,24 @@ else:
     print('There is no extra charge')
 
 # Creating an amortization schedule using Python
+# download through pip install amortization before running code
 
-    from amortization.schedule import amortization_schedule
+from amortization.schedule import amortization_schedule
 
-for number, amount, interest, principal, balance in amortization_schedule(150000, 0.1, 36):
+for number, amount, interest, principal, balance in amortization_schedule(250000, 0.1, 36):
     print(number, amount, interest, principal, balance)
+
+#Creating an amortization schedule using a table from Tabulate
+#pip install tabulate before running code in python
+from amortization.schedule import amortization_schedule
+from tabulate import tabulate
+
+table = (x for x in amortization_schedule(250000, 0.1, 36))
+print(
+    tabulate(
+        table,
+        headers=["Number", "Amount", "Interest", "Principal", "Balance"],
+        floatfmt=",.2f",
+        numalign="right"
+    )
+)
